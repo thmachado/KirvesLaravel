@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.app{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: center;
+}
+
+.app img{
+    border-radius: 50%;
+    height: auto;
+    max-width: 300px;
+    margin: 24px 0px;
+    width: 100%;
+}
+
+.app h1{
+    font-size: 64px;
+}
+
+.app p{
+    font-size: 24px;
+    margin: 6px 0px;
+}
+
+@media only screen and (max-width: 600px){
+    .app img{
+        max-width: 150px;
+    }
+
+    .app h1{
+        font-size: 36px;
+    }
+
+    .app p{
+        font-size: 18px;
+    }
+}
